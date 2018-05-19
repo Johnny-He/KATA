@@ -11,7 +11,7 @@ namespace KATAA.KATA
        
         public string ReverseWords(string str)
         {
-            var strings = str.Split(' ');
+            var strings =  str.Split(' ');
             var result = "";
             foreach (var splitstring in strings)
             {
