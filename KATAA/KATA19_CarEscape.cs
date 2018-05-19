@@ -9,8 +9,7 @@ namespace KATAA.KATA
     public class KATA19_CarEscape
     {
         public static string[] escape(int[,] carpark)
-        {
-            for (int i = 0; i < carpark.GetLength(0); i++)
+        {            for (int i = 0; i < carpark.GetLength(0); i++)
             {
                 for (int j = 0; j < carpark.GetLength(1); j++)
                 {
