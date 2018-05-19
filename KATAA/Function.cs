@@ -17,34 +17,7 @@ namespace KATAA
     
     public class Function
     {
-        public static int Solution(int value)
-        {
-            var list =new List<int>();
-            for (int i = 3; i < value; i++)
-            {
-                if (i % 3 == 0 || i % 5 == 0)
-                {
-                    list.Add(i);
-                }
-            }
-
-            var sum = list.Sum();
-            return sum;
-        }
-        //          An=A1+(n-1)d => d=(An-A1)/n-1
-        public static int FindMissing(List<int> list)
-        {
-            var n = list.Count + 1;
-            var d = (list[list.Count - 1]- list[0]) / (n - 1);
-            for (int i = 1; i < list.Count-1; i++)
-            {
-                if (list[i] + d != list[i + 1])
-                {
-                    return list[i] + d;
-                }
-            }
-            return -99;
-        }
+        
         private static readonly List<double> responsenull = new List<double>{-99,-99};
         public static List<double> interpoint(line line1, line line2)
         {
