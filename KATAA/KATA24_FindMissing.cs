@@ -4,9 +4,9 @@ using System.Text;
 
 namespace KATAA
 {
-    class KATA24_FindMissing
+    public class KATA24_FindMissing
     {
-        public static int FindMissing(List<int> list)
+        public int FindMissing(List<int> list)
         {
 
             var perdifferent = (list[list.Count - 1]- list[0]) / (list.Count + 1 - 1);
