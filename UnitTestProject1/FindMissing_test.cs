@@ -23,7 +23,7 @@ namespace KATAtest
         [TestMethod]
         public void FindMissing_test2()
         {
-            var kataservice = _kata24FindMissing;
+             var kataservice = _kata24FindMissing;
 
             Assert.AreEqual(600000, kataservice.FindMissing(new List<int> { 200000, 400000, 800000, 1000000 }));
         }
