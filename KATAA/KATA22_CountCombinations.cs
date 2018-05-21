@@ -11,7 +11,7 @@ namespace KATAA
             return findCombinationsCount2(amount, coins, 0);
         }
 
-        public static int findCombinationsCount2(int amount, int[] coins, int checkFromIndex)
+        public static int findCombinationsCount2(int amount,  int[] coins, int checkFromIndex)
         {
             if (amount == 0)
             {
