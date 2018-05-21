@@ -6,7 +6,7 @@ namespace KATAA
 {
     class KATA25_Multiples_of3or5
     {
-        public static int Solution(int value)
+        public static int Solution(int  value)
         {
             int sum = 0;
             for (int i = 3; i < value; i++)
