@@ -8,7 +8,7 @@ namespace KATAA
     {
         static void Main(string[] args)
         {
-           Console.WriteLine(new KATA24_FindMissing().FindMissing(new List<int> { 1040, 1400, 1580 }));
+           Console.WriteLine(new HighestRankNumberInAnArray().HighestRank(new int[] { 2,2,2,2,11,11,11,11,10,10,10,10,1,1,1,1}));
           
 
             Console.Read();
