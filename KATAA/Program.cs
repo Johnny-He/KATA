@@ -8,7 +8,8 @@ namespace KATAA
     {
         static void Main(string[] args)
         {
-           Console.WriteLine(new HighestRankNumberInAnArray().HighestRank(new int[] { 2,2,2,2,11,11,11,11,10,10,10,10,1,1,1,1}));
+            Console.WriteLine(new Kata29_RomanNumeralsEncoder().Solution(50));
+            
           
 
             Console.Read();
