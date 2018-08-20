@@ -6,7 +6,7 @@ namespace KATAA
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(new Kata30_MaximumLengthDifference());
+           Console.Write(new Kata32_ExesandOhs().XO("xo"));
             Console.Read();
 
         }
