@@ -9,8 +9,13 @@ namespace KATAA
         public  int Persistence(long n)
         {
             var intlist = n.ToString().Select(x => Convert.ToInt32(x.ToString())).ToList();
+            return GetMultiTimes(intlist);
+        }
+
+        private int GetMultiTimes( List<int> intlist)
+        {
             var count = 0;
-            while (intlist.Count>1)
+            while (intlist.Count > 1)
             {
                 var sum = intlist.Aggregate(1, (current, t) => current * t);
                 count++;
@@ -18,9 +23,7 @@ namespace KATAA
             }
 
             return count;
-
         }
 
-      
     }
 }
